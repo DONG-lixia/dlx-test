@@ -39,8 +39,7 @@
 答:
 
   
-    <script>
+   <script>
         var yzm = prompt('请输入验证码');
-        var h4 = document.getElementById('h4');
-        h4.innerHTML = yzm.toLocaleUpperCase();
-    </script>
+        document.getElementById('h4').innerHTML=yzm.toLocaleUpperCase();; 
+        </script>
