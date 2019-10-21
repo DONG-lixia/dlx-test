@@ -31,7 +31,7 @@
 <script type="text/javascript">
 			  var str = 'img/head/icon/1.jpg';
         
-              var nstr = str.slice(0,13);
+              var nstr = str.slice(0,14);
        
               document.getElementById('h4').innerHTML=nstr; 
 </script>
