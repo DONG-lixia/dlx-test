@@ -40,7 +40,7 @@
 
   
     <script>
-        var ipt = prompt('请输入验证码');
+        var yam = prompt('请输入验证码');
         var h4 = document.getElementById('h4');
-        h4.innerHTML = ipt.toLocaleUpperCase();
+        h4.innerHTML = yzm.toLocaleUpperCase();
     </script>
