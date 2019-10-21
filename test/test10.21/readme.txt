@@ -15,7 +15,7 @@
 <script type="text/javascript">
 	    var str = '87';
        
-        var estr = str.padEnd(4,0);
+        var estr = str.padEnd(6,0);
         document.getElementById('h2').innerHTML=estr;      
 </script>
 3.一个数字79387.348的工程款,保留两位小数存入,显示在页面id为h3的元素中
