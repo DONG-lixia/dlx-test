@@ -37,16 +37,10 @@
 </script>
 5.用户输入验证码,无论大小写输入都会正确的方法,显示在页面id为h1的元素中,显示在页面id为h4的元素中
 答:
-<script type="text/javascript">
 
-			btn.onclick=function(){
-			    var yzm='whkl';
-			    var yzm1=yzm.toUpperCase();       
-				
-				var in =document.getElementById('in');
-			    var in2 =in.value;
-				if(in2==yzm){
-					document.getElementById('h4').innerHTML=in2;       
-				}
-			}
-</script>
+  
+    <script>
+        var ipt = prompt('请输入验证码');
+        var h4 = document.getElementById('h4');
+        h4.innerHTML = ipt.toLocaleUpperCase();
+    </script>

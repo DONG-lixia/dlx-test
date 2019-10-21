@@ -9,20 +9,11 @@
 <div id="h4">
 	
 </div>
-        <input type="" name="" id="in" value="" />
-        <button id="btn">提交</button>
-		<script type="text/javascript">
-
-			btn.onclick=function(){
-			    var yzm='whkl';
-			    var yzm1=yzm.toUpperCase();       
-				
-				var in =document.getElementById('in');
-			    var in2 =in.value;
-				if(in2==yzm){
-					document.getElementById('h4').innerHTML=in2;       
-				}
-			}
-		</script>
+        
+		<script>
+        var ipt = prompt('请输入验证码');
+        var h4 = document.getElementById('h4');
+        h4.innerHTML = ipt.toLocaleUpperCase();
+        </script>
 	</body>
 </html>
